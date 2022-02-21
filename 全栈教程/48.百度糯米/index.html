@@ -1,0 +1,621 @@
+<!doctype html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title></title> 
+    <style type="text/css">
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+.banner{width: 100%;height: 40px;background: #f2f2f2;}  
+.banner .banner_con	{width: 1217px;height: 100%;margin: 0 auto;}
+.banner .banner_con ul{float: left;height: 100%;line-height: 40px;}
+.banner .banner_con ul li{font-size: 14px;color: #666666;float: left;margin-right: 22px; }
+.banner .banner_con ul li a{text-decoration: none;color: #666666;}
+.banner .banner_con ul li a.login{
+	color: #a98239;
+}
+.banner .rightNode{float: right;height: 100%;}
+.banner .rightNode li{float: left;font-size: 14px;color: #666666;height: 100%;line-height: 40px;margin-left:22px; }
+.banner .rightNode li a{text-decoration: none;color: #828282;}
+.banner .rightNode li .down{background: url(image/s_1.gif) no-repeat 57px center;padding-right: 9px;}
+.banner .rightNode .line{width: 2px;height: 14px;background: #e2e2e2;margin-top:14px; }
+/*banner end*/
+/*topNode start*/
+.topNode{width: 1218px;margin: 0 auto;height: 111px;}
+.topNode .logo{
+	float: left;margin-top: 26px; 
+}
+.topNode .topNode_ln{float: left;width: 67px;height: 17px;line-height: 17px;font-size: 16px;text-indent: 18px;background: url(image/left_node.gif) no-repeat left top;margin-left: 40px;margin-top: 44px; }
+.topNode .topNode_ln a{
+	color: #242424;
+	padding-right: 16px;
+	background: url(image/right_node.gif) no-repeat 36px center;
+}
+.topNode .topNode_center{float: left;width: 580px;height: 100%;margin-left: 74px;}
+.searchNode{width:100%;height: 41px;float: left;margin-top: 25px; }
+.searchNode .searchNode_left{
+	width:468px;height: 39px;
+	border: 1px solid #dfcca7;
+	border-right: none; 
+	float: left;
+}
+.searchNode .searchNode_left .left_in{
+	width:467px;height: 37px;
+	border: 1px solid #a97310;
+	border-right: none; 
+
+}
+.searchNode .searchNode_left .left_in input{
+	width:454px;height: 35px;
+	border: 1px solid #dfcca7;
+	border-right: none; 
+	outline: none;padding-left: 12px;
+
+}
+.searchNode .searchTo{
+	float: left;width: 111px;height: 100%;background: #c9a156;color: white;text-align: center;line-height: 39px;
+	border-top-right-radius:1px ; 
+	border-bottom-right-radius:1px ; 
+}
+.topNode_center .search_ul{
+	float: left;height: 14px;line-height: 14px;margin:9px 0 0 2px; 
+}
+.topNode_center .search_ul li{float: left;margin-right: 17px; }
+.topNode_center .search_ul li a{
+	color: #adadad;font-size: 14px;
+}
+
+/*rightNode_ul start*/
+.rightNode_ul{width:149px;height: 37px;border: 2px solid #f2ebde;float: left;margin: 25px 0 0 12px;background: #fff8eb;}
+.rightNode_ul li{float: left;height: 100%;width:48px;height: 100%;}
+.rightNode_ul li.t_1{width:49px;}
+.rightNode_ul li.t_1 a{background: url(image/t_1.gif) no-repeat center;}
+.rightNode_ul li a{width:100%;height: 100%;float: left;}
+.rightNode_ul li.t_2 a{background: url(image/t_2.gif) no-repeat center;}
+.rightNode_ul li.t_3 a{background: url(image/t_3.gif) no-repeat center;}
+.rightNode_ul li.line{
+	width:2px;height: 23px;margin-top:7px;background: #efe5d1; 
+}
+/*centerNode start*/
+.centerNode{
+	width:1218px;height: 430px;margin: 0 auto;
+}
+
+.centerNode .leftNode{
+	width:235px;height: 100%;float: left;
+}
+.centerNode .rightNode{
+	width:983px;height: 100%;float: left;
+}
+.centerNode .leftNode .topNode{
+	height: 44px;background: url(image/top_1.jpg) no-repeat 198px center,#d2a95f;float: left;width:100%;line-height: 44px;font-size: 17px;color: white;text-indent: 17px; float: left;
+}
+.centerNode .leftNode .bottomNode{
+	height: 386px;width:100%;background: #313131;float: left;
+}
+.centerNode .leftNode .bottomNode .listNode li{
+	height: 15px;line-height: 15px;margin-top:18px;margin-bottom:15px;float: left;width:100%;  
+}
+.centerNode .leftNode .bottomNode .listNode li .bigText{
+	float: left;color:#fff;margin-left:17px; 
+}
+.centerNode .leftNode .bottomNode .listNode li .smallText{
+	float: right;color: #9e9e9e;font-size: 13px;margin-right:17px; 
+}
+
+.centerNode .rightNode .list_banner{
+	width:100%;height: 42px;border-bottom:2px solid #b89253;float: left; 
+}
+.centerNode .rightNode .list_banner li{float: left;line-height: 42px;height: 100%;}
+.centerNode .rightNode .list_banner li a{
+	color: #141414;padding: 0 30px;float: left;height: 100%;
+}
+.centerNode .rightNode .list_banner li a.movie{
+	background: url(image/h_1.jpg) no-repeat 63px 9px;
+}
+.centerNode .rightNode .list_banner li a.move{
+	background: url(image/s_1.jpg) no-repeat 63px center;
+}
+.picNode{float: left;width: 100%;height: 374px;margin-top: 12px; }
+.picNode a{float: left;}
+.picNode a.p_1{margin-left: 12px; }
+.picNode a.p_2{margin-left:12px;
+margin-bottom:12px;height: 165px;  
+
+}
+.picNode a.p_3{
+	margin-left:12px;
+}
+
+/*hotMovie start*/
+.hotMovie{
+	height: 430px;width: 1218px;margin: 0 auto;border-bottom:1px solid #ededed;margin-top: 49px;  
+}
+.hotMovie .hotMovie_banner{
+	width: 100%;height: 24px;
+}
+.hotMovie .hotMovie_banner .left_h{
+	float: left;font-size: 24px;color: #1d1d1d;float: left;height: 24px;line-height: 24px;
+}
+.hotMovie .hotMovie_banner .bannerTo{
+	float: right;color: #191919;line-height: 33px;margin-right: 34px; 
+}
+.hotMovie .hotMovie_banner .bannerTo a{
+	color: #191919;font-size: 13px;
+}
+.hotMovie .hotMovie_banner .hotMovie_all{
+	float: right;font-size: 13px;color: #191919;line-height: 33px;padding-right:12px;background: url(image/right_s.jpg) no-repeat 59px center; 
+}
+.hotMovie .connent{
+	width: 100%;height: 358px;margin-top: 23px; 
+}
+.hotMovie .connent li{float: left; height: 100%;width: 182px;margin-right:25px; }
+.hotMovie .connent li.last{margin-right:0; }
+.hotMovie .connent li p{height: 54px;text-align: center;line-height: 54px;font-size: 18px;}
+.hotMovie .connent li a{width: 120px;height: 33px;border: 2px solid #c9a66b;text-align: center;line-height: 33px;float: left;color:#c9a66b;font-size: 13px;border-radius:1px;margin-left:28px;   }
+/*happy start*/
+.happy{height: 390px;}
+.happy .connent li{
+	width: 223px;margin-right: 25px; 
+}
+.happy .connent li p{
+	height: 18px;line-height: 18px;font-size: 18px;text-align: left;margin-top: 22px;margin-bottom: 10px;
+}
+.happy .connent li .discuss{
+	height: 13px;line-height: 13px;font-size: 13px;
+}
+.happy .connent li .discuss ol{
+	float: left;height: 13px;
+}
+.happy .connent li .discuss ol li{
+	width: 13px;height: 13px;float: left;background: url(image/start.jpg) no-repeat;margin-left:0;margin-right:3px;  
+}
+.happy .connent li .discuss ol li.half{
+	background: url(image/start_2.jpg) no-repeat;
+}
+.happy .connent li .discuss span{
+	float: right;color: #363636;
+}
+.happy .connent li .twig{
+	width: 217px;height: 14px;border-left:1px solid #e9e9e9;margin-left: 5px;text-align: right; 
+	color: #8d8d8d;font-size: 14px;line-height: 14px;margin-top: 14px;
+}
+
+.happy .connent li .bottom{
+	height: 14px;font-size: 14px;line-height: 14px;color: #595959;text-align: left;margin-top: 12px;
+}
+
+/*tour start*/
+.tour{height: 412px;margin-top: 46px; }
+
+.tour .connent_ul{height: 340px;width: 100%;margin-top: 23px; }
+.tour .connent_ul li {width: 388px;float: left;height: 340px;margin-right:25px; }
+.tour .connent_ul li.last{margin-right: 0;}
+.marry .connent_ul li.last a{
+	float: left;height: 159px;
+}
+.marry .connent_ul li.last a.first{
+	margin-bottom:23px; 
+}
+
+/*hotshop start*/
+.hotshop{
+	width: 1218px;height: 109px;border-bottom: 1px solid #e9e9e9;position: relative; margin: 0 auto;
+}
+.hotshop .nameNode{
+	position: absolute;height: 46px;line-height: 46px;font-size: 16px;border-bottom:1px solid #4d4d4d;bottom: 0px; 
+}
+.hotshop_connet{
+	width: 1218px;margin: 0 auto;height: 277px;
+}
+.hotshop_connet ul{float: left;width: 243px;height: 100%;}
+.hotshop_connet ul li{height: 13px;line-height: 13px;font-size: 13px;margin-top: 23px; }
+.hotshop_connet ul li a{
+	color: #4d4d4d;
+}
+.hotshop_connet ul li.first{
+	margin-top: 34px; 
+}
+
+/*footer start*/
+.footer{height: 290px;background: #f2f2f2;}
+.footer .footer_connent{width: 1218px;height: 100%;margin: 0 auto;}
+.footer .footer_connent ul{
+	width: 243px;float: left;height: 224px;
+}
+.footer .footer_connent ul li{height: 13px;line-height: 13px;font-size: 13px;margin-top: 21px;float: left;width: 100%; }
+.footer .footer_connent ul li a{
+	color: #4d4d4d;
+}
+.footer .footer_connent ul li.first{
+	height: 16px;font-weight: bold;margin-top: 47px;margin-bottom: 7px; 
+}
+.footer .footer_connent ul li.last a{
+	width: 120px;height: 33px;border: 2px solid #c9a66b;text-align: center;line-height: 33px;float: left;color:#c9a66b;font-size: 13px;border-radius:1px;
+}
+
+.bottom_footer{
+	height: 66px;line-height: 66px;font-size: 14px;color: #8a8a8a;text-indent: 520px;
+	background: url(image/ga.jpg) no-repeat 489px center;float: left;
+}
+
+    </style>
+</head>
+<body>
+	<div class='banner'>
+		<div class='banner_con'>
+			<ul>
+				<li>Hi！欢迎来到百度糯米</li>
+				<li><a href="#" class='login'>请登陆</a></li>
+				<li><a href="#">免费注册</a></li>
+			</ul>
+			<ol class='rightNode'>
+				<li><a href="#">个人中心</a></li>
+				<li><a href="#" class='down'>最近浏览</a></li>
+				<li class='line'></li>
+				<li><a href="#" class='down'>糯米APP</a></li>
+				<li class='line'></li>
+				<li><a href="#" class='down'>我是商家</a></li>
+				<li class='line'></li>
+				<li><a href="#">帮助中心</a></li>
+				<li><a href="#">食品安全</a></li>
+			</ol>
+
+		</div>
+
+	</div>
+	<div class='topNode'>
+		<a href="#" class='logo'>
+			<img src="image/logo.gif">
+		</a>
+		<div class='topNode_ln'>
+			<a href="#">北京</a>
+		</div>
+		<div class='topNode_center'>
+			<div class='searchNode'>
+				<div class='searchNode_left'>
+					
+					<div class='left_in'>
+						<input type="" name="" placeholder="搜索商家/地点">
+					</div>
+				</div>
+				<a href="#" class='searchTo'>搜索</a>
+			</div>
+			<ul class='search_ul'>
+				<li><a href="#">自主火锅</a></li>
+				<li><a href="#">天鸿广场</a></li>
+				<li><a href="#">中医推拿按摩</a></li>
+				<li><a href="#">化妆</a></li>
+				<li><a href="#">钢琴培训</a></li>
+			</ul>
+
+		</div>
+		<ul class='rightNode_ul'>
+			<li class='t_1'><a href="#" ></a></li>
+			<li class='line'></li>
+			<li class='t_2'><a href="#" ></a></li>
+			<li class='line'></li>
+			<li class='t_3'><a href="#" ></a></li>
+		</ul>
+	</div>
+	<div class='centerNode'>
+		<div class='leftNode'>
+			<div class='topNode'>全部分类</div>
+			<div class='bottomNode'>
+				<ul class='listNode'>
+					<li>
+						<span class='bigText'>酒店</span>
+						<span class='smallText'>北京/上海/广州</span>
+					</li>
+					<li>
+						<span class='bigText'>旅游</span>
+						<span class='smallText'>目的地攻略/行程/计划</span>
+					</li>
+					<li>
+						<span class='bigText'>电影</span>
+						<span class='smallText'>看影片/找影院</span>
+					</li>
+					<li>
+						<span class='bigText'>休闲娱乐</span>
+						<span class='smallText'>KTV/温泉洗浴</span>
+					</li>
+					<li>
+						<span class='bigText'>结婚</span>
+						<span class='smallText'>婚纱摄影/婚庆服务</span>
+					</li>
+					<li>
+						<span class='bigText'>生活服务</span>
+						<span class='smallText'>配镜/鲜花</span>
+					</li>
+					<li>
+						<span class='bigText'>美食</span>
+						<span class='smallText'>小食/快餐/自助餐/火锅</span>
+					</li>
+					<li>
+						<span class='bigText'>丽人</span>
+						<span class='smallText'>美容/美发SPA/美甲</span>
+					</li>
+					
+				</ul>
+
+			</div>
+
+		</div>
+		<div class='rightNode'>
+			<ul class='list_banner'>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">酒店</a></li>
+				<li><a href="#" class='move'>出行</a></li>
+				<li><a href="#" class='movie'>电影</a></li>
+				<li><a href="#">结婚</a></li>
+				<li><a href="#">外卖</a></li>
+			</ul>
+			<div class='picNode'>
+				<a href="#" class='p_1'><img src="image/p_1.jpg"></a>
+				<a href="#" class='p_2'><img src="image/p_2.jpg"></a>
+				<a href="#" class='p_3'><img src="image/p_3.jpg"></a>
+			</div>
+		</div>
+	</div>
+	<div class='hotMovie'>
+		<div class='hotMovie_banner'>
+			<span class='left_h'>热映电影</span>
+			<a href="#" class='hotMovie_all'>查看全部</a>
+			<div class='bannerTo'>
+				<a href="#">看影片</a>
+				/
+				<a href="#">找影院</a>
+				/
+				<a href="#">看票房</a>
+			</div>
+			
+		</div>
+		<ul class='connent'>
+			<li>
+				<img src="image/image_1.jpg">
+				<p>复仇者联盟四：终局...</p>
+				<a href="#">选座购票</a>
+			</li>
+			<li>
+				<img src="image/image_2.jpg">
+				<p>大侦探比卡丘</p>
+				<a href="#">选座购票</a>
+			</li>
+			<li>
+				<img src="image/image_3.jpg">
+				<p>何以为家</p>
+				<a href="#">选座购票</a>
+			</li>
+			<li>
+				<img src="image/image_1.jpg">
+				<p>复仇者联盟四：终局...</p>
+				<a href="#">选座购票</a>
+			</li>
+			<li>
+				<img src="image/image_1.jpg">
+				<p>复仇者联盟四：终局...</p>
+				<a href="#">选座购票</a>
+			</li>
+			<li class='last'>
+				<img src="image/image_1.jpg">
+				<p>复仇者联盟四：终局...</p>
+				<a href="#">选座购票</a>
+			</li>
+		</ul>
+	</div>
+	<div class='hotMovie happy'>
+		<div class='hotMovie_banner'>
+			<span class='left_h'>休闲娱乐</span>
+			<a href="#" class='hotMovie_all'>查看全部</a>
+			<div class='bannerTo'>
+				<a href="#">KTV</a>
+				/
+				<a href="#">足浴按摩</a>
+				/
+				<a href="#">轰趴馆</a>
+				/
+				<a href="#">运动健身</a>
+			</div>
+			
+		</div>
+		<ul class='connent'>
+			<li>
+				<img src="image/tu_1.jpg">
+				<p>东丽温泉游泳馆</p>
+				<div class='discuss'>
+					<ol>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li class='half'></li>
+					</ol>
+					<span>119条评论</span>
+				</div>
+				<div class='twig'>已售1436</div>
+				<div class='bottom'>¥55/人</div>
+			</li>
+			<li>
+				<img src="image/tu_1.jpg">
+				<p>东丽温泉游泳馆</p>
+				<div class='discuss'>
+					<ol>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li class='half'></li>
+					</ol>
+					<span>119条评论</span>
+				</div>
+				<div class='twig'>已售1436</div>
+				<div class='bottom'>¥55/人</div>
+			</li>
+			<li>
+				<img src="image/tu_1.jpg">
+				<p>东丽温泉游泳馆</p>
+				<div class='discuss'>
+					<ol>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li class='half'></li>
+					</ol>
+					<span>119条评论</span>
+				</div>
+				<div class='twig'>已售1436</div>
+				<div class='bottom'>¥55/人</div>
+			</li>
+			<li>
+				<img src="image/tu_1.jpg">
+				<p>东丽温泉游泳馆</p>
+				<div class='discuss'>
+					<ol>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li class='half'></li>
+					</ol>
+					<span>119条评论</span>
+				</div>
+				<div class='twig'>已售1436</div>
+				<div class='bottom'>¥55/人</div>
+			</li>
+			<li class='last'>
+				<img src="image/tu_1.jpg">
+				<p>东丽温泉游泳馆</p>
+				<div class='discuss'>
+					
+					<span>暂无评价</span>
+				</div>
+				<div class='twig'></div>
+				<div class='bottom'>¥55/人</div>
+			</li>
+
+			
+		</ul>
+	</div>
+	<div class='hotMovie happy tour'>
+		<div class='hotMovie_banner'>
+			<span class='left_h'>旅游</span>
+			<a href="#" class='hotMovie_all'>查看全部</a>
+			
+			
+		</div>
+		<ul class='connent_ul'>
+			<li>
+				<a href="#"><img src="image/f_1.jpg"></a>
+			</li>
+			<li>
+				<a href="#"><img src="image/f_2.jpg"></a>
+			</li>
+			<li class='last'>
+				<a href="#"><img src="image/f_3.jpg"></a>
+			</li>
+
+			
+		</ul>
+	</div>
+	<div class='hotMovie happy tour marry'>
+		<div class='hotMovie_banner'>
+			<span class='left_h'>结婚</span>
+			<a href="#" class='hotMovie_all'>查看全部</a>
+			
+			
+		</div>
+		<ul class='connent_ul'>
+			<li>
+				<a href="#"><img src="image/f_1.jpg"></a>
+			</li>
+			<li>
+				<a href="#"><img src="image/f_2.jpg"></a>
+			</li>
+			<li class='last'>
+				<a href="#" class='first'><img src="image/f_4.jpg"></a>
+				<a href="#"><img src="image/f_5.jpg"></a>
+			</li>
+
+			
+		</ul>
+	</div>
+	<!-- hotshop start -->
+	<div class='hotshop'>
+		
+		<div class='nameNode'>热门商场</div>
+	</div>
+	<div class='hotshop_connet'>
+		<ul>
+			<li class='first'><a href="#">朝阳大悦城</a></li>
+			<li><a href="#">五道口购物中心</a></li>
+			<li><a href="#">爱琴海购物中心</a></li>
+			<li><a href="#">东方银座购物中心</a></li>
+			<li><a href="#">中关村广场购物中心</a></li>
+		</ul>
+		<ul>
+			<li class='first'><a href="#">蓝色港湾</a></li>
+			<li><a href="#">新中关购物中心</a></li>
+			<li><a href="#">东方新天地</a></li>
+			<li><a href="#">话语时尚购物中心</a></li>
+			<li><a href="#">百荣世贸商城</a></li>
+		</ul>
+		<ul>
+			<li class='first'><a href="#">朝阳大悦城</a></li>
+			<li><a href="#">五道口购物中心</a></li>
+			<li><a href="#">爱琴海购物中心</a></li>
+			<li><a href="#">东方银座购物中心</a></li>
+			<li><a href="#">中关村广场购物中心</a></li>
+		</ul>
+		<ul>
+			<li class='first'><a href="#">蓝色港湾</a></li>
+			<li><a href="#">新中关购物中心</a></li>
+			<li><a href="#">东方新天地</a></li>
+			<li><a href="#">话语时尚购物中心</a></li>
+			<li><a href="#">百荣世贸商城</a></li>
+		</ul>
+		<ul>
+			<li class='first'><a href="#">朝阳大悦城</a></li>
+			<li><a href="#">五道口购物中心</a></li>
+			<li><a href="#">爱琴海购物中心</a></li>
+			<li><a href="#">东方银座购物中心</a></li>
+			<li><a href="#">中关村广场购物中心</a></li>
+		</ul>
+	</div>
+
+	<div class='footer'>
+		
+		<div class='footer_connent'>
+			<ul>
+				<li class='first'>用户帮助</li>
+				<li><a href="#">常见团购问题</a></li>
+				<li><a href="#">开放API</a></li>
+			</ul>
+			<ul>
+				<li class='first'>用户帮助</li>
+				<li><a href="#">常见团购问题</a></li>
+				<li><a href="#">开放API</a></li>
+			</ul>
+			<ul>
+				<li class='first'>用户帮助</li>
+				<li><a href="#">常见团购问题</a></li>
+				<li><a href="#">开放API</a></li>
+			</ul>
+			<ul>
+				<li class='first'>用户帮助</li>
+				<li><a href="#">常见团购问题</a></li>
+				<li><a href="#">开放API</a></li>
+			</ul>
+			<ul>
+				<li class='first'>用户帮助</li>
+				<li><a href="#">常见团购问题</a></li>
+				<li><a href="#">开放API</a></li>
+				<li class='last'><a href="#">手机专享优惠</a></li>
+			</ul>
+			<div class='bottom_footer'>
+				京公网安备 1100000020000001 号
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
