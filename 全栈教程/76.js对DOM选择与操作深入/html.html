@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="a1">1</div>
+		<div class="a1">2</div>
+		<div class="a1">3</div>
+		<script type="text/javascript">
+			// var aDiv=document.getElementsByTagName('div');
+			// aDiv[0].style.color='red';
+			// aDiv[0].style.color='blue';
+			// aDiv[0].style.color='#ccc';
+			var aDiv=document.getElementsByClassName('a1');
+			// // aDiv[0].style.color='pink';
+			// aDiv[0].style.cssText='width: 300px;height: 200px;background: red;color: black;'
+			aDiv[0].innerHTML='Peng';
+			setTimeout(function(){
+				aDiv[1].innerHTML='今天是2月21日';
+			},1000);
+		</script>
+	</body>
+</html>
