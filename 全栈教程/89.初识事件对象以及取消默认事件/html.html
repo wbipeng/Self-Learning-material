@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+	</head>
+	<body>
+		<!-- <span id="span">
+			
+		</span> -->
+		<div id="myDiv">123456</div>
+		<input type="" name="" id="ipt" value="" />
+		<script type="text/javascript">
+			// var oS=document.getElementById('span');
+			// onmousemove=function(event){
+			// 	oS.innerHTML=event.clientX+','+event.clientY;
+			// }
+			// onmousedown=function(){
+			// 	console.log('鼠标按下')
+			// };onmouseup=function(){
+			// 	console.log('鼠标抬起')
+			// };
+			var myDiv=document.getElementById('myDiv');
+			var ipt=document.getElementById('ipt');
+			myDiv.onmousedown=function(){
+				return false;
+			};
+			oncontextmenu=function(){
+				//alert(1);
+				return false;
+			}
+			ipt.onmousedown=function(){return false;}
+		</script>
+	</body>
+</html>
