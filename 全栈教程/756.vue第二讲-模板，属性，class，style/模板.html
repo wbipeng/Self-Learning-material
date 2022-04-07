@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="vue.min.js"></script>
+		<style type="text/css">
+			div{width: 100px;height: 100px;background: black;color: white;}
+		</style>
+	</head>
+	<body>
+		<input @click="fn" type="button" value="点我"/>
+		{{{msg}}}
+		<script type="text/javascript">
+			new Vue({
+				el:'body',
+				data:{
+					msg:'<div>哈哈哈</div>'
+				},
+				methods:{
+					fn:function(){
+						this.msg='changed'
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

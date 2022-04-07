@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#div1{width: 200px;height: 200px;background: red;}
+		</style>
+	</head>
+	<body>
+		<div id="div1" class="div2" peng='18'></div>
+		<a href="" id="needA">链接</a>
+		<script type="text/javascript">
+			div1.onclick=function(){
+				if(div1.hasAttribute('peng')){
+					div1.setAttribute('peng',19)
+				}else{
+					div1.setAttribute('peng',18)
+				}
+			}
+		</script>
+	</body>
+</html>

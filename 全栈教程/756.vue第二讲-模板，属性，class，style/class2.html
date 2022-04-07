@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="vue.min.js"></script>
+		<style type="text/css">
+		body{background: #ccc;}
+		div{width: 100px;height: 100px;}
+		.red{background: red;}
+		.shadow{box-shadow: 0 0 15px black;}
+		.animate{transition: 0.5s;}
+		</style>
+	</head>
+	<body>
+		<input type="button" value="changed" @click="set"/>
+		<div :class="myDiv"></div>
+		<script type="text/javascript">
+			new Vue({
+				el:'body',
+				data:{
+					myDiv:{'red':true,'shadow':true,'animate':true}
+				},
+				methods:{
+					set:function(){
+						this.myDiv.shadow=!this.myDiv.shadow
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

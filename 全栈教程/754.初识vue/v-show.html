@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="vue.min.js"></script>
+		<style type="text/css">
+			div{width: 200px;height: 200px;background: black;}
+		</style>
+	</head>
+	<body>
+		<div v-show="dis"></div>
+		<script type="text/javascript">
+			new Vue({
+				el:'body',
+				data:{
+					dis:false
+				}
+			})
+		</script>
+	</body>
+</html>
